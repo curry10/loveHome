@@ -53,3 +53,7 @@ func (this*UserController) Reg() {
 
 	this.SetSession("name",user.Name)
 }
+
+func (this *UserController)Postavatar(){
+	 
+}
